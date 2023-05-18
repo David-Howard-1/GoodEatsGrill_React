@@ -1,39 +1,32 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(247, 247, 224);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto Serif", serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.home-page-center-text {
+  background-color: rgba(0,0,0,0.5);
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+footer {
+  color: white;
+  background-color: darkgrey;
+  padding: 2%;
+  margin-top: 4rem;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.menu-item-card {
+  border: solid 1px;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.reservation-button {
+  color: white; 
+  border: 1px solid white;
+  background-color: coral;
 }

@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { menuItemsReducer } from '../features/menu/menuSlice';
+import { reservedReducer } from '../features/user/reserverationSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
-  },
+    menuItems: menuItemsReducer,
+    reserved: reservedReducer
+  }
 });
