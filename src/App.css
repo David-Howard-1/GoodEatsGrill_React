@@ -25,6 +25,12 @@ footer {
   border: solid 1px;
 }
 
+.menu-img {
+  width: 50%;
+  height: 80%;
+  margin: 1rem;
+}
+
 .reservation-button {
   color: white; 
   border: 1px solid white;
